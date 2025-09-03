@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistical Features - Gray Literature Research</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Statistical Features</h1>
+        <nav class="breadcrumb">
+            <a href="index.html">Home</a> > Statistical Features
+        </nav>
+    </header>
+
+    <main>
+        <section class="features-explanation">
+            <p>In this topic, we clustered all <strong>statistical features</strong> that characterize sites selected to this research. The features are:</p>
+            
+            <div class="feature-definitions">
+                <div class="feature-item">
+                    <h3>Daily audience</h3>
+                    <p>This feature indicates the daily average of people that access the site. The value expected is a number.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Total users registered</h3>
+                    <p>This feature indicates total users registered in the site. The response is a number.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Question rated</h3>
+                    <p>This feature indicates how the questions are rated. Expected values: Upvoted by users, Upvoted by community, Liked by users, Liked (reactions), Editorial selection, Reactions. When there are no alternatives, put None. Allow multiple values.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Answer rated</h3>
+                    <p>This feature indicates how the answers are rated. Expected values: Upvoted by users, Upvoted by community, Liked by users, Liked (reactions), Editorial selection, Reactions. When there are no alternatives, put None. Allow multiple values.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Percentual answered</h3>
+                    <p>This feature indicates the percentage of questions answered on the site. The response is a number between 0 and 100.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Average number of interactions per question</h3>
+                    <p>This feature indicates the average number of interactions in each question on the site. The response is a number.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Total of citations</h3>
+                    <p>This feature indicates the total of citations of the site in journals, papers and other scientific documents. The response is a number.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions-section">
+            <h2>Questions for Statistical Features</h2>
+            <div class="questions-list">
+                <ol>
+                    <li>Based on the "Daily audience" explanation, What is the size of this site's daily audience? The expected value is a number.</li>
+                    <li>Based on the "Total users registered" explanation, How many users are registered on this site? The expected value is a number.</li>
+                    <li>Based on the "Question rated" explanation, How is the question rated on the site? The expected values: Upvoted by users, Upvoted by community, Liked by users, Liked (reactions), Editorial selection, Reactions. When there are no alternatives, put None. Allow multiple values.</li>
+                    <li>Based on the "Answer rated" explanation, How is the answer rated on the site? The expected values: Upvoted by users, Upvoted by community, Liked by users, Liked (reactions), Editorial selection, Reactions. When there are no alternatives, put None. Allow multiple values.</li>
+                    <li>Based on the "Percentual answered" explanation, What percentage of the questions on this site are answered? The expected value is a number between 0 and 100.</li>
+                    <li>Based on the "Average number of interactions per question" explanation, How many interactions per question on this site? The expected value is a number.</li>
+                    <li>Based on the "Total of citations" explanation, How many external citations such as journals, articles does this website have? The expected value is a number.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="sites-table-section">
+            <h2>Sites Evaluation Table</h2>
+            <div class="table-container">
+                <table id="statisticalFeaturesTable" class="sites-table">
+                    <thead>
+                        <tr>
+                            <th>Site</th>
+                            <th>Daily audience</th>
+                            <th>Total users registered</th>
+                            <th>Question rated</th>
+                            <th>Answer rated</th>
+                            <th>Percentual answered</th>
+                            <th>Avg interactions per question</th>
+                            <th>Total of citations</th>
+                        </tr>
+                    </thead>
+                    <tbody id="statisticalFeaturesTableBody">
+                        <!-- Sites will be loaded here by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <nav class="page-navigation">
+            <a href="connection-data-features.html" class="nav-btn">← Connection and Data Features</a>
+            <a href="onboard-features.html" class="nav-btn">On Board Features →</a>
+        </nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Software Engineering Research - Gray Literature Catalog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

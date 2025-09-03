@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Gray Literature Research</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Research Dashboard</h1>
+        <p>Consolidated insights from Gray Literature analysis</p>
+        <nav class="breadcrumb">
+            <a href="index.html">Home</a> > Dashboard
+        </nav>
+    </header>
+
+    <main>
+        <section class="dashboard-overview">
+            <h2>Overview Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">🌐</div>
+                    <div class="stat-content">
+                        <h3 id="totalSites">41</h3>
+                        <p>Total Sites Analyzed</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-content">
+                        <h3 id="totalUsers">Loading...</h3>
+                        <p>Combined Users</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-content">
+                        <h3 id="avgAnswerRate">Loading...</h3>
+                        <p>Avg Answer Rate</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🔗</div>
+                    <div class="stat-content">
+                        <h3 id="sitesWithAPI">Loading...</h3>
+                        <p>Sites with API</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="charts-section">
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <h3>Website Types Distribution</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="websiteTypesChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <h3>API Availability</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="apiAvailabilityChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <h3>Answer Quality Distribution</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="qualityChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <h3>Experience Level Coverage</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="experienceChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="insights-section">
+            <h2>Key Insights</h2>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <h3>🏆 Top Performing Sites</h3>
+                    <div id="topSites" class="insight-content">
+                        <div class="loading-placeholder">Calculating...</div>
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <h3>💻 Most Popular Languages</h3>
+                    <div id="popularLanguages" class="insight-content">
+                        <div class="loading-placeholder">Analyzing...</div>
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <h3>🛠️ Popular Frameworks</h3>
+                    <div id="popularFrameworks" class="insight-content">
+                        <div class="loading-placeholder">Processing...</div>
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <h3>📈 Audience Analysis</h3>
+                    <div id="audienceAnalysis" class="insight-content">
+                        <div class="loading-placeholder">Computing...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="detailed-tables">
+            <h2>Detailed Analysis</h2>
+            <div class="table-tabs">
+                <button class="tab-btn active" data-tab="summary">Summary</button>
+                <button class="tab-btn" data-tab="features">Feature Comparison</button>
+                <button class="tab-btn" data-tab="statistics">Statistics</button>
+            </div>
+            
+            <div class="tab-content active" id="summary-tab">
+                <div class="table-container">
+                    <table id="summaryTable" class="dashboard-table">
+                        <thead>
+                            <tr>
+                                <th>Site</th>
+                                <th>Type</th>
+                                <th>API</th>
+                                <th>Users</th>
+                                <th>Answer Rate</th>
+                                <th>Quality Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="summaryTableBody">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="features-tab">
+                <div class="table-container">
+                    <table id="featuresTable" class="dashboard-table">
+                        <thead>
+                            <tr>
+                                <th>Site</th>
+                                <th>Dashboard</th>
+                                <th>Mobile App</th>
+                                <th>Moderation</th>
+                                <th>Monetization</th>
+                                <th>User Ranking</th>
+                            </tr>
+                        </thead>
+                        <tbody id="featuresTableBody">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="statistics-tab">
+                <div class="table-container">
+                    <table id="statisticsTable" class="dashboard-table">
+                        <thead>
+                            <tr>
+                                <th>Site</th>
+                                <th>Daily Audience</th>
+                                <th>Total Users</th>
+                                <th>Avg Interactions</th>
+                                <th>Citations</th>
+                                <th>Topics Focus</th>
+                            </tr>
+                        </thead>
+                        <tbody id="statisticsTableBody">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <nav class="page-navigation">
+            <a href="discussions-features.html" class="nav-btn">← Discussions Features</a>
+            <a href="index.html" class="nav-btn">Home →</a>
+        </nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Software Engineering Research - Gray Literature Catalog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

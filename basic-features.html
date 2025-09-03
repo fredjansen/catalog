@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Features - Gray Literature Research</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Basic Features</h1>
+        <nav class="breadcrumb">
+            <a href="index.html">Home</a> > Basic Features
+        </nav>
+    </header>
+
+    <main>
+        <section class="features-explanation">
+            <p>In this topic, we clustered all <strong>basic features</strong> that characterize sites selected to this research. The features are:</p>
+            
+            <div class="feature-definitions">
+                <div class="feature-item">
+                    <h3>Associated Site</h3>
+                    <p>This feature indicates which platform this site belongs to. Expected values: reddit, stack exchange, quora and others. Based on this explanation above, answer the question. What platform is this site linked to? The expected values: reddit, stack exchange, microsoft, quora. When there are no alternatives, put None.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Creation Date</h3>
+                    <p>This feature indicates what year the site was created. The value expected is a number that represents a year that site was created. Based on this explanation above, answer the question. What is the creation date? The expected value is a number that represents the creation year.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Website Organization</h3>
+                    <p>This feature indicates the way the site is organized. Expected values: in topics, in areas, in communities and other ways. Based on this explanation above, answer the question. How are these sites organized? The expected values: in topics, in areas, in communities. When there are no alternatives, put None.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Registration Methods</h3>
+                    <p>This feature indicates how users log in to navigate in the site. Expected values: by own registration, by facebook account, by apple id, by gmail account, by linkedin, by github account, by outlook account and other ways of registration. Based on this explanation above, answer the question. What are the available registration methods? The expected values: own registration, apple ID, gmail account, linkedin, github account, outlook account. Allow multiple values.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Search Engines</h3>
+                    <p>This feature indicates ways of search engines inside the site. Expected values: string search, tags/labels search, similarity search and other ways. Based on this explanation above, answer the question. What search engines are available on this site? The expected values: string search, tags/labels search, similarity search. When there are no alternatives, put None. Allow multiple values.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Type of Audience</h3>
+                    <p>This feature indicates the target technical profile of the website. Expected values: Developers, Software Engineers, Software Architects, Testers or others. Based on this explanation above, answer the question. What type of audience does this site target? The expected values: developers, software engineers, software Architects, testers. When there are no alternatives, put IT professionals. Allow multiple values.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Website Type</h3>
+                    <p>This feature indicates the type of website. Expected values: site, forum, community, blog. Based on this explanation above, answer the question. Is this site a forum, a community, a blog or something else? The expected values: forum, community, blog or website.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Subarea of Software Engineering</h3>
+                    <p>This feature indicates which sub-area of software engineering the site is most focused on. Expected values: general, coding, architecture, maintenance, testing, management, and evolution. Allow multiple values. Based on this explanation above, answer the question. Which of the sub-areas within software engineering? The expected values: general, coding, architecture, maintenance, testing, management, and evolution. Allow multiple values.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions-section">
+            <h2>Questions for Basic Features</h2>
+            <div class="questions-list">
+                <ol>
+                    <li>Based on the "Associated Site" explanation, What platform is this site linked to? The expected values: reddit, stack exchange, microsoft, quora. When there are no alternatives, put None.</li>
+                    <li>Based on the "Creation date" explanation, What is the creation date? The expected value is a number that represents the creation year.</li>
+                    <li>Based on the "Website organization" explanation, How are these sites organized? The expected values: in topics, in areas, in communities. When there are no alternatives, put None</li>
+                    <li>Based on the "Registration methods" explanation, What are the available registration methods? The expected values: own registration, apple ID, gmail account, linkedin, github account, outlook account. Allow multiple values.</li>
+                    <li>Based on the "Search engines" explanation, What search engines are available on this site? The expected values: string search, tags/labels search, similarity search. When there are no alternatives, put None. Allow multiple values.</li>
+                    <li>Based on the "Type of Audience" explanation, What type of audience does this site target? The expected values: developers, software engineers, software Architects, testers. When there are no alternatives, put IT professionals. Allow multiple values.</li>
+                    <li>Based on the "Website type" explanation, Is this site a forum, a community, a blog or something else? The expected values: forum, community, blog or website.</li>
+                    <li>Based on the "Subarea of software engineering" explanation, Which of the sub-areas within software engineering? The expected values: general, coding, architecture, maintenance, testing, management, and evolution. Allow multiple values.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="sites-table-section">
+            <h2>Sites Evaluation Table</h2>
+            <div class="table-container">
+                <table id="basicFeaturesTable" class="sites-table">
+                    <thead>
+                        <tr>
+                            <th>Site</th>
+                            <th>Associated Site</th>
+                            <th>Creation Date</th>
+                            <th>Website Organization</th>
+                            <th>Registration Methods</th>
+                            <th>Search Engines</th>
+                            <th>Type of Audience</th>
+                            <th>Website Type</th>
+                            <th>Subarea of SE</th>
+                        </tr>
+                    </thead>
+                    <tbody id="basicFeaturesTableBody">
+                        <!-- Sites will be loaded here by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <nav class="page-navigation">
+            <a href="index.html" class="nav-btn">← Home</a>
+            <a href="connection-data-features.html" class="nav-btn">Connection and Data Features →</a>
+        </nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Software Engineering Research - Gray Literature Catalog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

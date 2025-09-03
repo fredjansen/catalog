@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Board Features - Gray Literature Research</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>On Board Features</h1>
+        <nav class="breadcrumb">
+            <a href="index.html">Home</a> > On Board Features
+        </nav>
+    </header>
+
+    <main>
+        <section class="features-explanation">
+            <p>In this topic, we clustered all <strong>on Board features</strong> that characterize sites selected to this research. The features are:</p>
+            
+            <div class="feature-definitions">
+                <div class="feature-item">
+                    <h3>Moderation type</h3>
+                    <p>This feature indicates the way of moderation of the questions on the site. Expected values: Moderation, Moderation + Authorization, Moderation + Community voting, Moderation + Editorial, Moderation + Paid access, Moderation + Community, Moderation + Editorial, Moderation + GitHub staff, Moderation + Google oversight, Moderation + Microsoft, Community + Moderation, Community voting + Moderation, Repo maintainers + Moderation, Invite-only + Moderation, Subreddit moderators. When there are no alternatives, put None. Allow multiple values.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Monetization type</h3>
+                    <p>This feature indicates the monetization way used on the site. Expected values: Ads, web site ads, website services, donations, websites subscriptions, sponsorships, sponsors contents, sponsors posts, services promotions. When there are no alternatives, put None. Allow multiple values.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Basic required information</h3>
+                    <p>This feature indicates basic information needed to post any question on the site. Expected values: User account, basic info, email, profile, payment. When there are no alternatives, put None. Allow multiple values.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Needed qualification</h3>
+                    <p>This feature indicates if users need to have any qualification to be able to post. Expected values: None or unknown.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Users Ranking</h3>
+                    <p>This feature indicates how users are ranked by their participation. Expected values: Badges, achievements, Reactions, Contribution scores, engagement, Contest rankings, Upvotes, Followers, likes, points. When there are no alternatives, put None.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Actions allowed</h3>
+                    <p>This feature indicates what actions are allowed on the site. Expected values: Post, discuss, compete, reply, vote, comment, like, Share tips, follow users, react, solve problems, flag, Q&A. Allow multiple values.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>Repository metadata</h3>
+                    <p>This feature indicates if the site repository has any kind of description or not. Expected values: yes or no.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions-section">
+            <h2>Questions for On Board Features</h2>
+            <div class="questions-list">
+                <ol>
+                    <li>Based on the "Moderation type" explanation, How is this site moderated? The expected values: Moderation, Moderation + Authorization, Moderation + Community voting, Moderation + Editorial, Moderation + Paid access, Moderation + Community, Moderation + Editorial, Moderation + GitHub staff, Moderation + Google oversight, Moderation + Microsoft, Community + Moderation, Community voting + Moderation, Repo maintainers + Moderation, Invite-only + Moderation, Subreddit moderators. When there are no alternatives, put None. Allow multiple values.</li>
+                    <li>Based on the "Monetization type" explanation, Does this site have any type of monetization? The expected values: Ads, web site ads, website services, donations, websites subscriptions, sponsorships, sponsors contents, sponsors posts, services promotions. When there are no alternatives, put None. Allow multiple values.</li>
+                    <li>Based on the "Basic required information" explanation, What basic data is required to register a post on the website? The expected values: User account, basic info, email, profile, payment. When there are no alternatives, put None. Allow multiple values.</li>
+                    <li>Based on the "Needed qualification" explanation, Is there any user qualification for participation on the site? The expected values: None or unknown.</li>
+                    <li>Based on the "Users Ranking" explanation, How users are ranked on the site based on their participation in it? The expected values: badges, achievements, reactions, contribution scores, engagement, contest rankings, upvotes, followers, likes, points. When there are no alternatives, put None. Allow multiple values.</li>
+                    <li>Based on the "Actions allowed" explanation, What actions are allowed on the website? The expected values: post, discuss, compete, reply, vote, comment, like, share tips, follow users, react, solve problems, flag, Q&A. Allow multiple values.</li>
+                    <li>Based on the "Repository metadata" explanation, Does this site provide any kind of description of the repository and the site itself for consultation? The expected values: yes or no.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="sites-table-section">
+            <h2>Sites Evaluation Table</h2>
+            <div class="table-container">
+                <table id="onboardFeaturesTable" class="sites-table">
+                    <thead>
+                        <tr>
+                            <th>Site</th>
+                            <th>Moderation type</th>
+                            <th>Monetization type</th>
+                            <th>Basic required information</th>
+                            <th>Needed qualification</th>
+                            <th>Users Ranking</th>
+                            <th>Actions allowed</th>
+                            <th>Repository metadata</th>
+                        </tr>
+                    </thead>
+                    <tbody id="onboardFeaturesTableBody">
+                        <!-- Sites will be loaded here by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <nav class="page-navigation">
+            <a href="statistical-features.html" class="nav-btn">← Statistical Features</a>
+            <a href="discussions-features.html" class="nav-btn">Discussions Features →</a>
+        </nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Software Engineering Research - Gray Literature Catalog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
