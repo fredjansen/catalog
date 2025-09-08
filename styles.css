@@ -676,6 +676,53 @@ footer a:hover {
     }
 }
 
+/* References Section */
+.references-content {
+    margin-top: 1rem;
+}
+
+.references-content h3 {
+    color: #4a5568;
+    margin: 2rem 0 1rem 0;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+}
+
+.references-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.references-list li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border-left: 4px solid #667eea;
+    line-height: 1.5;
+}
+
+.references-list li em {
+    color: #2d3748;
+    font-style: italic;
+}
+
+.references-note {
+    background: #e8f4fd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #3182ce;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.references-note strong {
+    color: #2d3748;
+}
+
 /* Utility Classes */
 .hidden {
     display: none;
