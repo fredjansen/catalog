@@ -1,45 +1,99 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gray Literature in Software Engineering - Research Catalog</title>
+    <title>Catalog of gray literature sources in software engineering</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Gray Literature in Software Engineering</h1>
-        <p>Research Catalog</p>
+        <h1>Catalog of gray literature sources in software engineering</h1>
     </header>
 
     <main>
-        <section class="introduction">
+        <!-- Introduction Section -->
+        <section id="introduction">
             <h2>Introduction</h2>
-            <p>You are a researcher in software engineering. The focus of our research is <strong>gray literature</strong>, a multimodal source of technical information used by practitioners in various fields. The field in question is software engineering. In this document are organized several sites of gray literature focused in software engineering that can accelerate your seeks in many topics.</p>
-            
-            <p>The topics are organized this way:</p>
-            
-            <nav class="topic-navigation">
-                <ol class="topic-list">
-                    <li><a href="basic-features.html" class="nav-link">Basic Features</a></li>
-                    <li><a href="connection-data-features.html" class="nav-link">Connection and Data Features</a></li>
-                    <li><a href="statistical-features.html" class="nav-link">Statistical Features</a></li>
-                    <li><a href="onboard-features.html" class="nav-link">On Board Features</a></li>
-                    <li><a href="discussions-features.html" class="nav-link">Discussions Features</a></li>
-                    <li><a href="dashboard.html" class="nav-link">Dashboard & Analytics</a></li>
-                </ol>
-            </nav>
+            <p>You are a researcher in software engineering. The focus of our research is gray literature, a multimodal source of technical information used by practitioners in various fields. The field in question is software engineering. In this document are organized several sites of gray literature focused in software engineering that can accelerate your seeks in many topics.</p>
+            <p>This catalog is generated automatically using the Claude Code tool.</p>
+        </section>
 
-            <div class="intro-description">
-                <p>Each section contains detailed explanations of the characteristics that define the gray literature sites selected for this research. These features help categorize and understand the various platforms available for software engineering practitioners and researchers.</p>
-                
-                <p>Navigate through each section to explore the different aspects that make these sites valuable resources for the software engineering community.</p>
+        <!-- Topics Section -->
+        <section id="topics">
+            <h2>Topics</h2>
+            <p>The facets identified by this research was clustered and organized like follows:</p>
+            <ol>
+                <li>Basic Features</li>
+                <li>Connection and Data Features</li>
+                <li>Statistical Features</li>
+                <li>On Board Features</li>
+                <li>Discussions Features</li>
+            </ol>
+        </section>
+
+        <!-- Sites List Section -->
+        <section id="sites-list">
+            <h2>Sites List</h2>
+            <p>This section shows the list of sites identified during research.</p>
+            <div id="sites-container">
+                <!-- Sites will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Research Background Section -->
+        <section id="research-background">
+            <h2>Research Background</h2>
+            <p>This section shows all features contained in the research background organized by topic categories.</p>
+            
+            <div class="topic-buttons">
+                <button class="topic-btn" data-topic="basic">Basic Features</button>
+                <button class="topic-btn" data-topic="connection">Connection and Data Features</button>
+                <button class="topic-btn" data-topic="statistical">Statistical Features</button>
+                <button class="topic-btn" data-topic="onboard">On Board Features</button>
+                <button class="topic-btn" data-topic="discussions">Discussions Features</button>
+            </div>
+            
+            <div id="topic-content">
+                <!-- Topic content will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Site Comparison Section -->
+        <section id="site-comparison">
+            <h2>Site Comparison</h2>
+            <p>This section shows all features with the questions responded and organized in interactive tables.</p>
+            
+            <div class="comparison-buttons">
+                <button class="comparison-btn dashboard-btn" data-category="dashboard">📊 Consolidated Dashboard</button>
+                <button class="comparison-btn" data-category="basic">Basic Features Comparison</button>
+                <button class="comparison-btn" data-category="connection">Connection Features Comparison</button>
+                <button class="comparison-btn" data-category="statistical">Statistical Features Comparison</button>
+                <button class="comparison-btn" data-category="onboard">On Board Features Comparison</button>
+                <button class="comparison-btn" data-category="discussions">Discussions Features Comparison</button>
+            </div>
+            
+            <div id="comparison-content">
+                <!-- Comparison tables will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Export Data Section -->
+        <section id="export-data">
+            <h2>Export Data</h2>
+            <p>This section provides buttons to export data in different formats.</p>
+            
+            <div class="export-buttons">
+                <button class="export-btn" data-format="html">Export as HTML</button>
+                <button class="export-btn" data-format="json">Export as JSON Schema</button>
+                <button class="export-btn" data-format="csv">Export as CSV</button>
+                <button class="export-btn" data-format="python">Export as Python</button>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Software Engineering Research - Gray Literature Catalog</p>
+        <p>🤖 Generated with <a href="https://claude.ai/code" target="_blank">Claude Code</a></p>
     </footer>
 
     <script src="script.js"></script>
