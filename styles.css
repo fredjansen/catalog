@@ -676,6 +676,141 @@ footer a:hover {
     }
 }
 
+/* Bibliography Information Section */
+.bibliography-info-content {
+    margin-top: 1rem;
+}
+
+.bibliography-info-content h3 {
+    color: #4a5568;
+    margin: 2rem 0 1rem 0;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+}
+
+.methodology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.methodology-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.methodology-card h4 {
+    color: #2d3748;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.quality-assessment {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.assessment-category {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #48bb78;
+}
+
+.assessment-category h4 {
+    color: #2d3748;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.assessment-category ul {
+    margin-left: 1rem;
+}
+
+.assessment-category li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.research-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-left: 4px solid #f093fb;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #4a5568;
+    font-weight: 500;
+}
+
+.sources-classification {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.source-type {
+    background: #e8f4fd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #3182ce;
+}
+
+.source-type h4 {
+    color: #2d3748;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.limitations-section {
+    background: #fff5f5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #f56565;
+    margin-bottom: 2rem;
+}
+
+.limitations-section h4 {
+    color: #2d3748;
+    margin: 1.5rem 0 1rem 0;
+    font-size: 1.1rem;
+}
+
+.limitations-section ul {
+    margin-left: 1rem;
+}
+
+.limitations-section li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
 /* References Section */
 .references-content {
     margin-top: 1rem;
